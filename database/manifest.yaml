@@ -1,0 +1,15 @@
+name: neon-db
+type: database
+icon: ./icon.svg
+required_identities: []
+deployment:
+  terraform: ./module
+inputs:
+  project_id:
+    type: string
+    description: "Neon project ID where the database will be created. Uses default project if not specified"
+  branch_id:
+    type: string
+    description: "Neon branch ID for database isolation and branching workflows. Uses default branch if not specified"
+
+outputs: {}
