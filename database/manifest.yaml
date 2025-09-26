@@ -1,4 +1,4 @@
-name: neon-db
+name: database
 type: database
 description: "Provisions Neon PostgreSQL database with branching and auto-scaling"
 icon: ./icon.svg
